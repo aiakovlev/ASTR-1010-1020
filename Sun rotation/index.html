@@ -2,6 +2,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <title>Sun rotation</title>
+    <link rel="icon" type="image/x-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAsQAAALEBxi1JjQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAUYSURBVEiJlZVrbBRVFMf/89qZnX3vdnfbblu6IKUFykppAWlQUEQkDRqEIqBCAkWJNiaIhhAJagxBCUbjAzGaIB/EBjCFGlMoCYSoaEvEUkuf9N2F0u2+H7M7szN+aZsWWKD/T/eenPP7554zcy8wBRl56gW7nj0/lZqU4hmqAgA/IcQ5zequdS67l6Ppp0djRKZOtSfLyFZO2cCuU/nzrPxAmka1CQAyDeyh7zcUCF37SpUcE9cCYIbDwNW/uTQ75LSoz6bikCnihMPIhi9XFjs2LUj/OsvINTgM7OZ1j9tZM89g+2KHY16G9o+aClfJ3hW5WigwpzIgJqz1ABIABAD0ohx977mdRZkA0OONIZqQIUgyJFmB08zBqlWNFxYevNLSH4i/xlFUvs2gKglExF8DcakOAOixJKuGOZWmUxUxJBkWxKToMHEqAKhpuYPj191Is5GY6WRAQsbxhhiGh2W8UpiLsnwbludZ7BoVWVuYoTXUNHvidR2e8ZaNn4CmsXxbiePkJ2tmWgBAEGUca+7HE6spLJjPQqOe3M1oSMCnX/Sho5PHZ6sKwdEkkrKC4sP13d3e2AwAyqQZSBIu1raN3AkKEhQFeP1MM+Y/Bzy5RH0PHAB4HYcP9s7Ay89HsKu2CQBQ1+ZNCqJyYgwOANSEmmkg8GS2kXM2D4fIdJeEV9caU81u9PwkZs3U4nrzbYx41UiIiF/p8U83qJklYVEKyjL6CbtetVFNU3sK7LytYrHD/tRjJmJ91b+orcoGQxMPNhhVpKcHL70noap8EQCgdSiC3Wc6o/8NhX+ipaTC2E2M/Wh5gV3P0ej3C3A66UeGA4DGYoDFNISRiAiLhkGjOyT0+GL1/qj4FhUT5UZvIvnX2et3Vq7Mt+h7fQKUjDhKi/mHk8cky2hq8sOopKG21Rs6UNdzYTAQLwMgkgAQi0m/d4/E39l9pt2XlBWQqX6/B3koAEkAVg3NEARhA8ABo18Rz2BBnlX9+XflBSanRY3WjsTU6FICnYMkckwcyuZYuW/L8xdmm9h6AFaaZzDfYeR/q6lw2Uw8AxPPoPNmAqKkPPIcwp4AfAEGZp6BmFSQTCpkuo51ROLyIULPMyVmjvpQRZH58zK1/ObijDR3SKCEaSHs2mF5OD0ew/sHujGXnYVoDPH9tTcHZIU45Q4IxwC00sGo2BCMiqsBoH04unQ4LFZVb3NlbD3tgWtOBM+UalLDk0lU/9KH3l4D3i2z4Z+BEEsRxJUBv7BnLGXSOK061dLtizOtBAEcWTMbX30ZwMFvPIgnlHvYkUAU+z6+idPntDi8ai4AoChLBw1LLcOEd2RSk3PN3I3LlcUFXSMxNLrD4qpZFuZyjw8nmt3YvzMdf7YEIcREtHfF4PUp2OLKxeo8GypPt42EBCkxO0OjaRmKqC91+t/2RcUjdxvodRzVZuZVg4qiXL0VTFBH1+dvW+uyEQAgyQqu9gVBUwScZjUsGma8sPjw3+2dntizAKZrGTJfo1J1DkWEC8CE6xpAMCQkM0JCbGy/os8vbACg+7H+VvR4g1s4t7PITJMETl4bin90vjv0w8YC88IcAykrigigD0BfWJQvhUVhHDrxsrtbrEnNbPn52u1YdZPnmCeUqFaA0qIsHbv1xI3BXp+w8GKHr6BtOGrpHol7A4J09AGs+0qnZal+LUcvG90T00xs4xtLHJE0ntkxlmTkqRcdetW+qcLvK4aBy8gzjUj9lt+j/wENvv7DWWoHvgAAAABJRU5ErkJggg==">
     <style>
        .disable-select {
             user-select: none; /* supported by Chrome and Opera */
@@ -81,7 +83,7 @@
                 <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked onchange=correction(event)>Correction
             </label>
             </div>
-            <p>Uncheck this checkbox to disable correction forthe earth motion around the Sun.<br>The correction is enabled by default. Uncheck only if you are absolutely sure.</p>
+            <p>Uncheck this checkbox to disable correction for the Earth motion around the Sun.<br>The correction is enabled by default. Uncheck only if you are absolutely sure.</p>
         </form>
     </div>
 </div>
